@@ -65,8 +65,8 @@ public class Slice_o_Heaven {
     }
 
     public static void main(String[] args) {
-        Slice_o_Heaven pizzeria = new Slice_o_Heaven("Slice-o-Heaven", "123 Pizza St, City", "info@sliceoheaven.com", 1234567890L, "Pepperoni, Margherita, Hawaiian");
-        pizzeria.pizzaPrice = 12.0;
-        pizzeria.takeOrder("001", "Pepperoni, Cheese", "Garlic Bread", "Coke");
+        Slice_o_Heaven pizzeria = new Slice_o_Heaven("Slice-o-Heaven", "***City", "12345678@qq.com", 123456789,"***");
+        pizzeria.pizzaPrice = 10.0;
+        pizzeria.takeOrder("000", "Pepperoni, Cheese", "Garlic Bread", "Coke");
     }
 }
